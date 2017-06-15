@@ -1,0 +1,68 @@
+name: realShop
+author: Scripter36(1350adwx)
+main: realShop.Main
+version: 0.0.1
+commands:
+  rs:
+    description: realShop commands
+    usage: /rs
+permissions:
+  realshop.commands.*:
+    description: Allows you to use all realShop commands
+    children:
+      realshop.commands.changeworth: true
+      realshop.commands.changeamount: true
+      realshop.commands.getprice: true
+      realshop.commands.getworth: true
+      realshop.commands.getamount: true
+      realshop.commands.buy: true
+      realshop.commands.sell: true
+      realshop.commands.instantbuy: true
+      realshop.commands.instantsell: true
+      realshop.commands.createshop: true
+      realshop.commands.removeshop: true
+      realshop.commands.additem: true
+      realshop.commands.removeitem: true
+      realshop.commands.itemlist: true
+  realshop.commands.changeworth:
+    description: Allows you to change a worth of item
+    default: OP
+  realshop.commands.changeamount:
+    description: Allows you to change a amount of item
+    default: OP
+  realshop.commands.getprice:
+    description: Allows you to get a price of item
+    default: true
+  realshop.commands.getworth:
+    description: Allows you to get a worth of item
+    default: true
+  realshop.commands.getamount:
+    description: Allows you to get a amount of item
+    default: true
+  realshop.commands.buy:
+    description: Allows you to buy some items
+    default: true
+  realshop.commands.sell:
+    description: Allows you to sell some items
+    default: true
+  realshop.commands.instantbuy:
+    description: Allows you to buy some items instantly
+    default: OP
+  realshop.commands.instantsell:
+    description: Allows you to sell some items instantly
+    default: OP
+  realshop.commands.createshop:
+    description: Allows you to create a shop
+    default: OP
+  realshop.commands.additem:
+    description: Allows you to register a item
+    default: OP
+  realshop.commands.removeshop:
+    description: Allows you to remove a shop
+    default: OP
+  realshop.commands.removeitem:
+    description: Allows you to remove a item
+    default: OP
+  realshop.commands.itemlist:
+    description: Shows item list
+    default: OP
